@@ -43,3 +43,12 @@ function reduceToAllTrue(sourceArray){
   }
   return true;
 }
+
+function reduceToAnyTrue(sourceArray){
+  for (const item of sourceArray) {
+    if(item == true){
+      return true;
+    }
+  }
+  return false;
+}
