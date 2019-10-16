@@ -28,7 +28,7 @@ function mapToSquare(arr) {
   return newArr;
 }
 
-function reduceToTotal(sourceArray, startingPoint){
+function reduceToTotal(sourceArray, startingPoint=0){
   for (const item of sourceArray) {
     startingPoint = startingPoint + item;
   }
